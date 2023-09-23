@@ -11,3 +11,6 @@ use App\Controllers\WelcomeController;
 use Phenomine\Support\Route;
 
 Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
+Route::get('/404', function () {
+    return view('errors.404');
+})->name('404');
