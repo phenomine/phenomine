@@ -10,10 +10,4 @@
 use App\Controllers\WelcomeController;
 use Phenomine\Support\Route;
 
-Route::get('/', function () {
-    echo 'Halo Bang';
-});
-
-Route::get('/print/{name}', [WelcomeController::class, 'index'])->name('welcome');
-
-Route::get('/index2', 'WelcomeController@index2');
+Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
