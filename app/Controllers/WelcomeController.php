@@ -10,7 +10,9 @@ class WelcomeController {
         {
             $app = config('app.name');
             $text = 'Hello World ' . $a . ' from ' . $app . '!';
-            View::render('welcome', [
+
+            $view = new View();
+            $view->render('welcome.index', [
                 'text' => $text
             ]);
         }
