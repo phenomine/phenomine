@@ -1,0 +1,21 @@
+{
+    "name": "phenomine/phenomine",
+    "description": "The skeleton application for the Phenomine framework.",
+    "require": {
+        "php": "^8.0",
+        "phenomine/framework": "dev-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhammad Fahli Saputra",
+            "email": "saputra@fahli.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
