@@ -10,6 +10,4 @@
 use App\Controllers\WelcomeController;
 use Phenomine\Support\Route;
 
-Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
-// Route::get('/test/{info?}', [WelcomeController::class, 'test'])->name('test');
-Route::post('/test/{nama}/{usia}', [WelcomeController::class, 'test'])->name('test2');
+Route::get('/', [WelcomeController::class, 'index'])->name('index');
