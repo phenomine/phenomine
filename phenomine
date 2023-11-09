@@ -29,4 +29,5 @@ require __DIR__ . '/vendor/autoload.php';
 
 
 $app = new \Phenomine\Support\Application();
+$app->initConsole();
 $app->console()->run();
