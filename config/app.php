@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'name' => 'The Phenomine Framework'
+    'name' => env('APP_NAME', 'The Phenomine Framework'),
+    'env' => env('APP_ENV', 'local')
 ];

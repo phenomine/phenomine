@@ -3,7 +3,7 @@
     "description": "The skeleton application for the Phenomine framework.",
     "require": {
         "php": "^8.0",
-        "phenomine/framework": "^1.0.1"
+        "phenomine/framework": "^2.0.0"
     },
     "license": "MIT",
     "autoload": {

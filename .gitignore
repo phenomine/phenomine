@@ -6,3 +6,4 @@ Thumbs.db
 /.idea
 /.fleet
 /.vscode
+.env
