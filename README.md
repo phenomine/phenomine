@@ -2,6 +2,7 @@
 <p align="center"><a href="https://github.com/phenomine/phenomine" target="_blank"><img src="https://raw.githubusercontent.com/phenomine/framework/main/assets/phenomine_text_logo.svg" width="400"></a></p>
 
 <p align="center">
+<a href="https://github.com/phenomine/framework/actions"><img src="https://github.com/phenomine/framework/actions/workflows/test.yml/badge.svg?branch=main" alt="Build Status"></a>
 <a href="https://packagist.org/packages/phenomine/framework"><img src="https://img.shields.io/packagist/dt/phenomine/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/phenomine/framework"><img src="https://img.shields.io/packagist/v/phenomine/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/phenomine/framework"><img src="https://img.shields.io/packagist/l/phenomine/framework" alt="License"></a>
